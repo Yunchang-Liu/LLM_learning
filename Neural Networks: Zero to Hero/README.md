@@ -3,7 +3,9 @@
 特斯拉前AI高级总监、斯坦福CS231n课程讲师**Andrej Karpathy**的《Neural Networks: Zero to Hero》课程学习。
 
 [课程主页](https://karpathy.ai/zero-to-hero.html)
+
 [课程视频](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)
+
 [github主页](https://github.com/karpathy/nn-zero-to-hero)
 
 ## 1. Building micrograd
@@ -21,6 +23,7 @@
 
 4. 安装```graphviz```库时，要用服务器管理员账号```sudo apt-get install graphviz```，因为涉及系统环境变量
 
+---
 ## Building makemore part1
 
 ### 内容
@@ -48,6 +51,7 @@
 
 4. 有的单词对出现次数为0，算梯度时会出现inf情况，因此需要model smoothing，即将每个单词对的出现次数都加1。**这个操作与正则化类似，都是想办法让每个单词对的概率接近，即分布更平滑。**（出现次数如果加很多，每个单词对的频率就很接近；正则化系数越大即W越接近于0，与输入乘积后概率值就越接近于0，每个单词对的频率也很接近）
 
+---
 
 ## Building makemore part2
 
@@ -60,6 +64,7 @@
 
 2. 调参以改变模型结构 (a)改变neuron的数量 (b)改变word embedding的维度 (c)改变输入字母数量的大小 (d)改变训练过程的参数，例如epochs，学习率及其衰减，batchsize等
 
+---
 
 ## Building makemore part3
 
@@ -82,11 +87,12 @@
 
 5. batch normalization: 在激活函数之前添加一个BN层，BN层的作用是网络层的输入和输出的均值和方差接近，使得激活函数的输入的分布更平滑。**BN使得网络训练更加鲁棒，而之前调节参数初始化需要十分小心**缺点是每一个样本在训练时，参数的更新都涉及到了同一批次中的其他样本，受到了本不该有的扰动（但其实对神经网络有利），因此其他例如layer normalization, group normalization等方法出现了。**（另：BN层之前不需要bias了，因此为均值除以方差的过程会抵消bias，且其本身就要x*γ+β）**
 
+---
 
 ## Building makemore part4
 
 ### 内容
-1. 手动计算back propagation，与pytorch自动loss.backward()结果进行比较
+1. 手动计算back propagation，与pytorch自动```loss.backward()```结果进行比较
 
 ### 收获总结
 1. 计算反向传播遇到**广播机制**时：如下例子，如果b的形状为```[3x3]```，那么```dc/db```就是```a```。但b是```[3,1]```，相当于```b```参与了三次计算（三列），每计算一次梯度就要累加一次，因此最终```dc/db```应该是每一行求和，即```[a11+a12+a13, a21+a22+a23, a31+a32+a33]```。
@@ -112,14 +118,17 @@
 ```
 
 4. **矩阵运算**的反向传播：通过简单例子的矩阵相乘得到梯度计算公式
-    1. 法1：手算推导 
-    ![judge_from_calculation1](note_images/judge_from_calculation1.png)
-    ![judge_from_calculation2](note_images/judge_from_calculation2.png)
-    2. 法2：通过维度判断（凑维度，例如```dh```是```dlogits```与```dW2```的某种运算，而```h```的维度与```dh```相同一定是```[32, 64]```，因此只能是```[32, 27] @ [27, 64]```凑出，即```dlogits @ W2.T```）
-    ![alt text](note_images/judge_from_dimension.png) 
+    1. **法1：手算推导**
+       
+        ![judge_from_calculation1](note_images/judge_from_calculation1.png)
+        ![judge_from_calculation2](note_images/judge_from_calculation2.png)
+    2. **法2：通过维度判断**（凑维度，例如```dh```是```dlogits```与```dW2```的某种运算，而```h```的维度与```dh```相同一定是```[32, 64]```，因此只能是```[32, 27] @ [27, 64]```凑出，即```dlogits @ W2.T```）
+
+        ![alt text](note_images/judge_from_dimension.png) 
 
 5. Exercise2 & 3: To be continued...
 
+---
 
 ## Building makemore part5
 
@@ -127,6 +136,7 @@
 1. 实现WaveNet的架构
 2. 将训练过程序列化、结构化
 
+---
 
 ## Building GPT
 
@@ -137,7 +147,9 @@
 1. - **self-attention:** q,k,v都是来自同一个序列，因此叫自注意力机制，我们只关注于自身节点的交流；
     - **cross-attention:** k,v来自外部，我们用输入q来找到并融合相关的外部信息。
 
-2. 
-    \[
-    \text{Attention}(Q,K,V)=\text{softmax}(\frac{QK^T}{\sqrt{d_k}})V
-    \]除以根号下dk的操作叫scale，用于控制QK乘积后的数值的方差，因为softmax会收到数值差距的影响，如果数字差距很大，softmax的输出会趋近于one-hot
+2. 除以根号下dk的操作叫scale，用于控制QK乘积后的数值的方差，因为softmax会收到数值差距的影响，如果数字差距很大，softmax的输出会趋近于one-hot
+
+$$
+\text{Attention}(Q,K,V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V
+$$
+
