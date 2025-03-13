@@ -1,0 +1,502 @@
+[
+    {
+        "instruction": "What type of lion never roars?\nA: lion cub\nB: jungle\nC: steppe\nD: lionet\nE: dandelion",
+        "input": "",
+        "output": "E"
+    },
+    {
+        "instruction": "You can touch me, You can break me, You should win me if you want to be mine.  What am I?\nA: beginning\nB: hands\nC: edge\nD: odors\nE: heart",
+        "input": "",
+        "output": "E"
+    },
+    {
+        "instruction": "i am dark in the day and light at night\nA: lit\nB: baffle\nC: starlight\nD: lamp\nE: plough",
+        "input": "",
+        "output": "D"
+    },
+    {
+        "instruction": "The more you dry yourself with me the more I get wet.  What am I?\nA: skin\nB: towel\nC: swim\nD: salt\nE: shrinkage",
+        "input": "",
+        "output": "B"
+    },
+    {
+        "instruction": "I pounce like a bull  Every day one big haul,  I cut like a knife  But im as soft as a wife.    What am I?\nA: bathe\nB: spurt\nC: object\nD: battle\nE: sea",
+        "input": "",
+        "output": "E"
+    },
+    {
+        "instruction": "You can see it everyday,   But cannot touch it at will. \nA: mind\nB: out\nC: sky\nD: road\nE: daily",
+        "input": "",
+        "output": "C"
+    },
+    {
+        "instruction": "After sneaking in the abode, had he met this influential figure, he would cut his carpus, he thought to himself, who was he?\nA: suit\nB: fall in\nC: muscle\nD: neighbor\nE: parents",
+        "input": "",
+        "output": "E"
+    },
+    {
+        "instruction": "What is used to greet, and also used to describe something taller than you?\nA: descriptivism\nB: vertical\nC: hi\nD: defining\nE: tall tale",
+        "input": "",
+        "output": "C"
+    },
+    {
+        "instruction": "I can be red, or green, or yellow.   I'll help you stay a healthy fellow.   Inside I am white, I do not emit light.   But if you look just right I hold a star. \nA: north carolina\nB: orange\nC: night sky\nD: environmentalist\nE: apple",
+        "input": "",
+        "output": "E"
+    },
+    {
+        "instruction": "When I rest I have one face,  But when I'm flying I show six,  And when my brother joins the pace,  Then twelve faces are in the mix.    What am I?\nA: dice\nB: pool\nC: clown\nD: fourteen legs\nE: play",
+        "input": "",
+        "output": "A"
+    },
+    {
+        "instruction": "They are dark and on the run, without sun there will be none.  What are they?\nA: dark\nB: shadows\nC: daylight\nD: energy\nE: tropics",
+        "input": "",
+        "output": "B"
+    },
+    {
+        "instruction": "What is \"off to you\" if i say \"mhoty\"?\nA: ipod\nB: desktop\nC: electromagnetic spectrum\nD: mobile phone\nE: hat",
+        "input": "",
+        "output": "E"
+    },
+    {
+        "instruction": "Alive without breath s cold as deth thinks a fountian is a puff of air. Wat is it. \nA: stay in\nB: frost bite\nC: bacteria\nD: sense\nE: fish",
+        "input": "",
+        "output": "E"
+    },
+    {
+        "instruction": "What has two ends but no beginning?\nA: rope\nB: trees\nC: object\nD: bell\nE: gig",
+        "input": "",
+        "output": "A"
+    },
+    {
+        "instruction": "I can hurt, I can help, I'm kind, Sometimes I'm not, I can be said, You can hear me, Yet you can't see neither touch me.  What am I?\nA: words\nB: polish\nC: people\nD: foe\nE: quality",
+        "input": "",
+        "output": "A"
+    },
+    {
+        "instruction": "I am perfect with a head, perfect without a head; perfect with a tail, perfect without a tail; perfect with either, neither, or both what am i ??\nA: wig\nB: ear\nC: fur\nD: hair dye\nE: head",
+        "input": "",
+        "output": "A"
+    },
+    {
+        "instruction": "Hide and seek is your game, I watch you play behind me hiding from thoughs who seek you, knowing that pretty soon you will change day by day and won't need me anymore. What am I?\nA: bush\nB: covert\nC: a\nD: heaven\nE: get away from",
+        "input": "",
+        "output": "A"
+    },
+    {
+        "instruction": "My full powers come when my makers are dead; I await a heavy hat to put on my head.  What am I?\nA: boss\nB: silk\nC: virtue\nD: prince\nE: tapestry",
+        "input": "",
+        "output": "D"
+    },
+    {
+        "instruction": "what bus travels from spain to america?\nA: large city\nB: columbus\nC: apple tree\nD: united states\nE: state",
+        "input": "",
+        "output": "B"
+    },
+    {
+        "instruction": "What city has no people?\nA: electricity\nB: temple\nC: blunderbuss\nD: shop\nE: people",
+        "input": "",
+        "output": "A"
+    },
+    {
+        "instruction": "Long slim and slender dark as homemade thunder keen eyes and peaked nose scares the devil wherever it goes\nA: hollywood\nB: set\nC: demon\nD: snake\nE: rain",
+        "input": "",
+        "output": "D"
+    },
+    {
+        "instruction": "What demameds an answer,   but ask no question?\nA: phone\nB: lizard\nC: response\nD: state\nE: learning",
+        "input": "",
+        "output": "A"
+    },
+    {
+        "instruction": "You can have me almost every night,  Sometimes I could be bad sometimes I can be nice,  Whether you were a child or an adult i'll be there.    What am I?\nA: stay in bed\nB: pollution\nC: humans\nD: have sex\nE: dream",
+        "input": "",
+        "output": "E"
+    },
+    {
+        "instruction": "I am all around, yet to me you are half blind sunlight makes me invisible, and difficult to find what am i ??\nA: weather\nB: heat\nC: form\nD: closeness\nE: star",
+        "input": "",
+        "output": "E"
+    },
+    {
+        "instruction": "I am wingless but airborne, and when i meet your gaze tears will fall from your eyes what am i?\nA: bird's nest\nB: water\nC: speed\nD: nose\nE: smoke",
+        "input": "",
+        "output": "E"
+    },
+    {
+        "instruction": "By the way, what never moves, wears shoes, sandals and boots, but has no feet?\nA: jog\nB: skate\nC: pace\nD: path\nE: sidewalk",
+        "input": "",
+        "output": "E"
+    },
+    {
+        "instruction": "Children keep their assets in this\nA: creche\nB: cash register\nC: perisher\nD: piggybank\nE: toddler",
+        "input": "",
+        "output": "D"
+    },
+    {
+        "instruction": "Mount mount mount mount mount mount mount mount mount mount\nA: heavenly body\nB: hill\nC: precarious\nD: climbing\nE: mountain",
+        "input": "",
+        "output": "E"
+    },
+    {
+        "instruction": "What can be moved through many courses,  While applying on it no forces?\nA: shadow\nB: draw\nC: static\nD: dance\nE: be still",
+        "input": "",
+        "output": "A"
+    },
+    {
+        "instruction": "What flares up and does a lot of good, and when it dies is just a piece of wood?\nA: fun\nB: match\nC: link\nD: woodworker\nE: combustion",
+        "input": "",
+        "output": "B"
+    },
+    {
+        "instruction": "What Lighter Then A Feather But The Strongest Man In The World Cant Hold It Very Long\nA: dish\nB: the sky\nC: arm\nD: his breath\nE: tickling",
+        "input": "",
+        "output": "D"
+    },
+    {
+        "instruction": "A Man rode into a town on Friday, he stayed three nights and rode back on Friday.  How is this so?\nA: day time\nB: dusk\nC: isle of man\nD: his horses name is friday\nE: payday",
+        "input": "",
+        "output": "D"
+    },
+    {
+        "instruction": "I love to move around, But usually not on the ground.  I'm quite strung out when way up high.  I like to sail, but I need to stay dry.  I need air, but not to breathe.  A helpful hand is all I need.  What am I?\nA: kite\nB: freshness\nC: sound waves\nD: run away\nE: dish",
+        "input": "",
+        "output": "A"
+    },
+    {
+        "instruction": "Imagine you are working in company making cups, and your duty is to place a handle, which side of the cup will you place the handle?\nA: outside\nB: coffee cup\nC: charge\nD: cabinet\nE: coaster",
+        "input": "",
+        "output": "A"
+    },
+    {
+        "instruction": "My heart is as hard as stone,  yet my flesh is soft and sweet.    What am I?\nA: dirt\nB: peach\nC: treasure\nD: core\nE: violin",
+        "input": "",
+        "output": "B"
+    },
+    {
+        "instruction": "Plates use it.   Trees loose it.   Dad persuses it.   Fire chews it.    What is it?\nA: device\nB: kitchen cupboard\nC: vinyl\nD: paper\nE: equipment",
+        "input": "",
+        "output": "D"
+    },
+    {
+        "instruction": "What can bring back the dead; make us cry, make us laugh, make us young; born in an instant yet lasts a life time?\nA: decline\nB: resurrection\nC: bread\nD: memories\nE: water fountain",
+        "input": "",
+        "output": "D"
+    },
+    {
+        "instruction": "i am in chandigarh and i rhyme with sand. WHO AM I. . . . . . . . . . . . . . . . ?\nA: dirt\nB: runway\nC: windowsill\nD: window\nE: hand",
+        "input": "",
+        "output": "E"
+    },
+    {
+        "instruction": "you can hear me but you can never see me, what am i?\nA: rabbit\nB: fart\nC: volume\nD: like\nE: scream",
+        "input": "",
+        "output": "B"
+    },
+    {
+        "instruction": "My days are numbered what am i ??\nA: date\nB: shirt sleeve\nC: may\nD: calender\nE: calendar",
+        "input": "",
+        "output": "E"
+    },
+    {
+        "instruction": "My life is often a volume of grief,   your help is needed to turn a new leaf.    Stiff is my spine and my body is pale,   but I'm always ready to tell a tale.    What am I?\nA: wax\nB: telling\nC: book\nD: world\nE: original",
+        "input": "",
+        "output": "C"
+    },
+    {
+        "instruction": "They are fetched in the dark with no call.    They are taken in the light with out be stolen.    What are they?\nA: stars\nB: blue\nC: message\nD: sunlight\nE: room",
+        "input": "",
+        "output": "A"
+    },
+    {
+        "instruction": "What number do you get when you multiply all of the numbers on a telephone's dial pad?\nA: social security number\nB: zero\nC: single\nD: end of line\nE: satisfaction",
+        "input": "",
+        "output": "B"
+    },
+    {
+        "instruction": "i am not a man am i a man or a woman?\nA: man\nB: farmer\nC: women\nD: sex\nE: goat",
+        "input": "",
+        "output": "A"
+    },
+    {
+        "instruction": "I am the fountain from which no one can drink.   For many I am considered a necessary link.   Like gold to all I am sought for,  But my continued death brings wealth for all to want more.   . What am I?\nA: ore\nB: cow\nC: public fountain\nD: oil\nE: public place",
+        "input": "",
+        "output": "D"
+    },
+    {
+        "instruction": "What traps a star in its belly but can be held in your hand?\nA: lantern\nB: apple\nC: column\nD: dresser\nE: constellation",
+        "input": "",
+        "output": "B"
+    },
+    {
+        "instruction": "I am here today, maybe tomorrow, I was here yesteray, I could be here next week, I have always been here, hopefully I won't be destroyed or everyone will suffer a horrid death.  I hold many secrets I hold many ancient things, I know all, but you can not ask me for I will not answer. \nA: one\nB: mysteries\nC: boat\nD: earth\nE: my grave",
+        "input": "",
+        "output": "D"
+    },
+    {
+        "instruction": "I never was, am always to be.  No one ever saw me, nor ever will.  And yet I am the confidence of all, To live and breathe on this terrestrial ball.   What am I?\nA: today\nB: fear\nC: tomorrow\nD: forever\nE: yesterday",
+        "input": "",
+        "output": "C"
+    },
+    {
+        "instruction": "I am a poison strong enough to kill the sturdiest of men but I have the power to make even the vilest of dishes irresistible.  What am I?\nA: illness\nB: hunger\nC: taco\nD: tasty\nE: arsenic",
+        "input": "",
+        "output": "B"
+    },
+    {
+        "instruction": "It occurs once in every minute twice in every moment and yet never in one hundred thousand years\nA: weight\nB: happen to\nC: m\nD: happen suddenly\nE: spell",
+        "input": "",
+        "output": "C"
+    },
+    {
+        "instruction": "What is hot when warm coloured,and cold when not?\nA: ice cube\nB: cobalt\nC: ice cream\nD: flush\nE: fire",
+        "input": "",
+        "output": "E"
+    },
+    {
+        "instruction": "Here on earth it is true, yesterday is always before today; but there is a place where yesterday always follows today. \nA: column\nB: dictionary\nC: word\nD: horizon\nE: sunset",
+        "input": "",
+        "output": "B"
+    },
+    {
+        "instruction": "what comes first  and follows after,  ends life,  kills laughter?\nA: darkness\nB: emotion\nC: earth\nD: stories\nE: cold",
+        "input": "",
+        "output": "A"
+    },
+    {
+        "instruction": "Mouth up it gets filled, mouth down it gets empty\nA: spit\nB: gas station\nC: jar\nD: bottle\nE: putting",
+        "input": "",
+        "output": "D"
+    },
+    {
+        "instruction": "It is destruction made out of thin air, you hear it howl and give a prayer, through barns and houses it will tear it is a deadly funnel, of violent and twisting air\nA: bay\nB: salt\nC: hurricane\nD: atmosphere\nE: thunderstorm",
+        "input": "",
+        "output": "C"
+    },
+    {
+        "instruction": "In a tunnel of darkness lies a beast of iron.  It can only attack when pulled back.  What is it?\nA: hit\nB: proof\nC: bullet\nD: treasure chest\nE: hurt",
+        "input": "",
+        "output": "C"
+    },
+    {
+        "instruction": "What is everything to someone and nothing to everyone else?\nA: your mind\nB: compliments\nC: loved one\nD: eyes\nE: every aspect of life",
+        "input": "",
+        "output": "A"
+    },
+    {
+        "instruction": "I come out of the earth, I am sold in the market.  He who buys me cuts my tail, takes off my suit of silk, and weeps beside me when I am dead.   What am I?\nA: onion\nB: super\nC: fish market\nD: frozen foods\nE: fish tank",
+        "input": "",
+        "output": "A"
+    },
+    {
+        "instruction": "I cost no money to use, or conscious effort to take part of and as far as you can see, there is nothing to me but without me, you are dead\nA: life\nB: Steam\nC: air\nD: orbit\nE: blow",
+        "input": "",
+        "output": "C"
+    },
+    {
+        "instruction": "He who makes it does not keep it.   He who takes it does not know it.   He who knows it does not want it.   He who gathers it must destroy it. \nA: counterfeit money\nB: decay\nC: mine\nD: evil\nE: deny it",
+        "input": "",
+        "output": "A"
+    },
+    {
+        "instruction": "What is black and white with a cherry on top?\nA: light\nB: coal\nC: police car\nD: clarinet\nE: box of chocolates",
+        "input": "",
+        "output": "C"
+    },
+    {
+        "instruction": "In the middle of night, i surround the gong in the middle of sight, i end the song\nA: g\nB: music store\nC: church\nD: symphony\nE: music",
+        "input": "",
+        "output": "A"
+    },
+    {
+        "instruction": "Who is it that rows quickly with four oars, but never comes out from under his own roof?\nA: boats\nB: turtle\nC: icicle\nD: wash\nE: motorboat",
+        "input": "",
+        "output": "B"
+    },
+    {
+        "instruction": "I have eyes at my tail end, cannot fly, and I am not common in tropical areas. \nA: lawn\nB: countryside\nC: animal\nD: peacock\nE: bush",
+        "input": "",
+        "output": "D"
+    },
+    {
+        "instruction": "I saw the dead bring forth the living i saw the living bring forth the dead what did i see?\nA: sometimes bad\nB: light\nC: burial\nD: funeral\nE: life",
+        "input": "",
+        "output": "D"
+    },
+    {
+        "instruction": "what lion can not roar and can't move\nA: ivory coast\nB: sphinx\nC: savannah\nD: lioness\nE: lion's den",
+        "input": "",
+        "output": "B"
+    },
+    {
+        "instruction": "i move up and down side to side i plug in to somthin what am i\nA: cake\nB: block\nC: pc screen\nD: computer mouse\nE: oscilloscope",
+        "input": "",
+        "output": "D"
+    },
+    {
+        "instruction": "yellow and furry   but not cuddly   you cant hold it and snuggle  but it is still a feline\nA: neck\nB: lion\nC: viking\nD: alley\nE: jungle cat",
+        "input": "",
+        "output": "B"
+    },
+    {
+        "instruction": "Clear as crystal,cold as ice, swift like the wind, but never seen, never forgoten.  What am I?\nA: elusive\nB: crab\nC: emotion\nD: ghost\nE: alien",
+        "input": "",
+        "output": "D"
+    },
+    {
+        "instruction": "What is dressed when night falls and undressed when day breaks?\nA: fire\nB: black\nC: undies\nD: stick\nE: breakwater",
+        "input": "",
+        "output": "A"
+    },
+    {
+        "instruction": "WHAT CAN NEVER BE CHANGED?\nA: store\nB: your birthday\nC: can never be replaced\nD: sadness\nE: modification",
+        "input": "",
+        "output": "B"
+    },
+    {
+        "instruction": "This stick is the king for it makes the rules.  What is it?\nA: furniture\nB: ruler\nC: organization\nD: building\nE: games",
+        "input": "",
+        "output": "B"
+    },
+    {
+        "instruction": "There may be a houseful or a holeful,but you cannot catch a bowful.  what am i??\nA: fruit bowl\nB: boat\nC: smoke\nD: travel\nE: squirrel",
+        "input": "",
+        "output": "C"
+    },
+    {
+        "instruction": "You will always find me in the past.  I can be created in the present, But the future can never taint me.  What am I?\nA: writing\nB: book\nC: history\nD: water fountain\nE: pasts",
+        "input": "",
+        "output": "C"
+    },
+    {
+        "instruction": "A toy that requires some string and a breezy day\nA: fishing rod\nB: kite\nC: action\nD: quark\nE: games",
+        "input": "",
+        "output": "B"
+    },
+    {
+        "instruction": "Which of Santa's reindeer can you see in outer space?\nA: comet\nB: countryside\nC: musical notation\nD: christmas tree\nE: sleigh",
+        "input": "",
+        "output": "A"
+    },
+    {
+        "instruction": "some people make it but don't want it, some people buy it but don't need it, some people need it but don't know it. \nA: soap\nB: education\nC: better\nD: name\nE: money",
+        "input": "",
+        "output": "B"
+    },
+    {
+        "instruction": "Fill my bucket, spill my bucket, Over a plane of snow.  Black the track as I look back, My footsteps talk but make no sound.  What am I?\nA: pepper\nB: sleigh bell\nC: pen\nD: sleet\nE: spoon",
+        "input": "",
+        "output": "C"
+    },
+    {
+        "instruction": "What lies in bed, and stands in bed, first white then red.  The plumber it gets, the better the old woman likes it?\nA: apple\nB: water\nC: strawberry\nD: mark\nE: guest room",
+        "input": "",
+        "output": "C"
+    },
+    {
+        "instruction": "It starts out small but you can make it bigger.    A lot of people have one, and they make little kids happy     what is it\nA: garment\nB: balloon\nC: Presents\nD: mirror\nE: big dipper",
+        "input": "",
+        "output": "B"
+    },
+    {
+        "instruction": "I know what my job is,  The point has been made.   You say I have a big head,  And you're right, I'm afraid.   Put me in my place,  And then leave me alone.   What I need most,  Is someone to drive me home. \nA: brassiere\nB: nail\nC: dwelling\nD: spearhead\nE: brother",
+        "input": "",
+        "output": "B"
+    },
+    {
+        "instruction": "My thunder rolls beneath me, my lightning flares above.  I dust the crust, and when I bust, all I touch will I shove.    What am I?\nA: shell\nB: bottom of sea\nC: lightning rod\nD: hill\nE: volcano",
+        "input": "",
+        "output": "E"
+    },
+    {
+        "instruction": "An iron horse with a flaxen tail.  The longer the horse runs, the shorter his tail becomes.  What is it?\nA: eye\nB: maryland\nC: knit\nD: scotland\nE: needle and thread",
+        "input": "",
+        "output": "E"
+    },
+    {
+        "instruction": "What is light enough to float but will stay in a pack and may save your life if its on your back?\nA: salver\nB: silk\nC: sensitometer\nD: parasol\nE: parachute",
+        "input": "",
+        "output": "E"
+    },
+    {
+        "instruction": "You are sad upon my arrival  but to some am close to a miracle.   I ruin your plans so you despise me,  and yet you wouldn't survive without me. \nA: map\nB: dark\nC: agony\nD: rain\nE: shipwreck",
+        "input": "",
+        "output": "D"
+    },
+    {
+        "instruction": "What owns a bank, but never uses money? What runs but never walks?\nA: casino\nB: motion\nC: walk\nD: waterside\nE: sea",
+        "input": "",
+        "output": "E"
+    },
+    {
+        "instruction": "What has a foot but no legs?\nA: shoe\nB: organ\nC: muscle\nD: snail\nE: plant",
+        "input": "",
+        "output": "D"
+    },
+    {
+        "instruction": "The load-bearer the warrior the frightened one the brave the fleet-of-foot the iron-shod the faithful one the slave\nA: vehicle\nB: passenger\nC: boat\nD: horse\nE: eyes",
+        "input": "",
+        "output": "D"
+    },
+    {
+        "instruction": "A goofy creature that produces fine wool and like to spit at you\nA: expensive clothing\nB: llama\nC: eye\nD: lamb\nE: fate",
+        "input": "",
+        "output": "B"
+    },
+    {
+        "instruction": "It weighs next to nothing but no one can hold it for long.   What is it?\nA: pause\nB: anything\nC: dish\nD: everything\nE: your breath",
+        "input": "",
+        "output": "E"
+    },
+    {
+        "instruction": "What time starts and stops with an “n”?\nA: morning\nB: date\nC: noon\nD: evening\nE: hundredweight",
+        "input": "",
+        "output": "C"
+    },
+    {
+        "instruction": "I do not breathe, but I run and jump.    I do not eat, but I swim and stretch.    I do not drink, but I sleep and stand.    I do not think, but I grow and play.    I do not see, but you see me every day.   What am I?\nA: leg\nB: humans\nC: ears\nD: game\nE: footing",
+        "input": "",
+        "output": "A"
+    },
+    {
+        "instruction": "what is a door but but not a door?\nA: locks\nB: office\nC: houses\nD: jar\nE: building",
+        "input": "",
+        "output": "D"
+    },
+    {
+        "instruction": "who am i that hides inside the man  and leaves him when he dies  i go up or down depending on how he lived his life  who am i?\nA: mind\nB: will\nC: soul\nD: album\nE: man's mind",
+        "input": "",
+        "output": "C"
+    },
+    {
+        "instruction": "Mouthless but i will tell you a name that is not mine, i will show you the years i have seen but i have no eyes, memory i have but i have no mind\nA: statue\nB: tongues\nC: name tag\nD: intellect\nE: gravestone",
+        "input": "",
+        "output": "E"
+    },
+    {
+        "instruction": "Why did the ice cream truck break down?\nA: disneyland\nB: past\nC: toy store\nD: secret\nE: water",
+        "input": "",
+        "output": "D"
+    },
+    {
+        "instruction": "If you rub this there is a possibility of a magical fat man coming out\nA: lamp\nB: batten\nC: leaf\nD: curry\nE: change",
+        "input": "",
+        "output": "A"
+    },
+    {
+        "instruction": "A man leaves home takes three left turns in a square comes home there is a man in a mask there how does this work?\nA: round\nB: chess board\nC: baseball\nD: four corners\nE: pond",
+        "input": "",
+        "output": "C"
+    },
+    {
+        "instruction": "I run through hills; I veer around mountains.  I leap over rivers and crawl through the forests.  Step out your door to find me.   What am I?\nA: roads\nB: rug\nC: canyon\nD: town\nE: my house",
+        "input": "",
+        "output": "A"
+    },
+    {
+        "instruction": "In order to go on you need it, in order to leave you must lose it, in order to survive you must protect it, it is doomed by death, cursed from below, yet everything has it.  What is it?\nA: life\nB: death valley\nC: neonatal death\nD: country\nE: dear life",
+        "input": "",
+        "output": "A"
+    }
+]
