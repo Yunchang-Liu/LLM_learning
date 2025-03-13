@@ -69,20 +69,17 @@
 ### **TF-IDF 文本相关性计算**
 TF-IDF (Term Frequency - Inverse Document Frequency) 用于衡量文本中某个词对文档的重要性。
 
-- **TF (词频)**:  
-  \[
-  TF(t) = \frac{\text{该词在文档中出现的次数}}{\text{文档中的总词数}}
-  \]
-- **IDF (逆文档频率)**:  
-  \[
-  IDF(t) = \log\left(\frac{\text{总文档数}}{\text{包含该词的文档数} + 1}\right)
-  \]
-- **TF-IDF 总分数**:  
-  \[
-  \sum \text{每个关键词的 TF-IDF 之和}
-  \]
+- **TF (词频)**:
+  - TF(t) = 该词在文档中出现的次数 / 文档中的总词数
+
+- **IDF (逆文档频率)**:
+  - IDF(t) = log(总文档数 / (包含该词的文档数 + 1))
+
+- **TF-IDF 总分数**:
+  - 所有关键词的 TF-IDF 之和
 
 我们对每个问题的关键词计算 TF-IDF 分数，选取得分最高的 10 个文本片段作为 LLM 的输入。
+
 
 ---
 
